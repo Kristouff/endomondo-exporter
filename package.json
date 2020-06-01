@@ -1,0 +1,19 @@
+{
+  "name": "endomondo-exporter",
+  "version": "1.0.0",
+  "description": "Export GPX Files from Endomondo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-fetch": "^3.0.4",
+    "endomondo-api-handler": "^6.5.0",
+    "luxon": "^1.24.1",
+    "yargs": "^15.3.1"
+  }
+}
